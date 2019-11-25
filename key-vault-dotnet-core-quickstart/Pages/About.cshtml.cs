@@ -20,7 +20,8 @@ namespace key_vault_dotnet_core_quickstart.Pages
 
         public void OnGet()
         {
-            Message = "My key val = " + _configuration["AppSecret"];
+            //AppSecret is your secret or key name
+            Message = "My key val = " + _configuration["ExamplePassword"];
         }
     }
 }
